@@ -9,7 +9,7 @@ sys.path.insert(0, PROJECT_ROOT)
 print("PROJECT_ROOT =", PROJECT_ROOT)
 print("PROJECT_ROOT CONTENTS =", os.listdir(PROJECT_ROOT))
 
-#sys.path.insert(0, os.path.abspath("./UniDepth"))
+sys.path.insert(0, os.path.abspath("./UniDepth"))
 from unidepth.models import UniDepthV2
 
 
